@@ -46,7 +46,7 @@ git safe-rebase -i origin/main
 
 #### Example
 
-> **Note**  
+> [!Note]  
 > 需搭配 `git safe-rebase` 指令使用，而不是 `git rebase` 指令。
 
 ```bash
@@ -80,7 +80,7 @@ git safe-rebase --onto before-rebase-histories/{branch-name}/{YYYY-MM-DD}/{hh-mm
 
 #### Example
 
-> **Warning**  
+> [!Caution]  
 > 這個指令會刪除 `git ls-before-rebase` 指令列出的所有分支，建議刪除前先使用 `git ls-before-rebase` 指令確認。
 
 ```bash
